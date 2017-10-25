@@ -15,11 +15,11 @@ ul {
 }
 .icon1 {
     text-align: center;
-    width: 40px;
+    width: 60px;
     color: gray;
     font-size: 20px;
     float: right;
-    margin-right: 15px;
+    margin-right: 14px;
     
 }
 #box-search {
@@ -58,6 +58,9 @@ p{
 }
 hr{
     margin-top: 10px;
+}
+ul {
+    padding: 0;
 }
 nav {
     width: 100%;
@@ -146,19 +149,38 @@ ul li {
     display: inline-block;
     padding: 0;
 }
+/*div img {
+    width: 100%;
+    border-radius: 5px;
+    display: block;*/
+}
 #contenedor{
-    text-align: left;
-    width: 750px;
-    margin: auto;}
-    
-    #lateral{
-    width: 180px;  /*Este será el ancho que tendrá tu columna*/
-    background-color: #CCCCCC;  /*Aquí pon el color del fondo que quieras para este lateral*/
+    text-align: center;
+    margin: auto;
+    width: 1200px;
+}    
+#lateral1{
+    width: 300px;  /*Este será el ancho que tendrá tu columna*/
     float:left; /*Aqui determinas de lado quieres quede esta "columna" */
-    }
-    
-    #principal{
-    margin-left:190px; /*Este margen hace que no se encime el contenido en tu menúlateral, es     importante que pongas un pocos pixeles más que el ancho  de tu columna lateral*/
-    background-color: #FFFFFF;
-    border:#000000 1px solid; /*ponemos un dorde para que se vea bonito*/
-    }
+    margin-left: 50px;
+    }    
+#lateral2{
+    width: 300px;  /*Este será el ancho que tendrá tu columna*/
+    float:left; /*Aqui determinas de lado quieres quede esta "columna" */
+    margin-left: 10px;
+}    
+#lateral3{
+    width: 300px;  /*Este será el ancho que tendrá tu columna*/
+    float:left; /*Aqui determinas de lado quieres quede esta "columna" */
+    margin-left: 10px;
+}    
+#lateral4{
+    width: 300px;  /*Este será el ancho que tendrá tu columna*/
+    float:left; /*Aqui determinas de lado quieres quede esta "columna" */
+    margin-left: 10px;
+}
+img {
+    width: 100%;
+    border-radius: 5px;
+    margin: 1em 0 1em;
+}
