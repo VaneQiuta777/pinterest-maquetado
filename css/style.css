@@ -2,37 +2,163 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Droid Sans', sans-serif;
 }
 header{
-    width: 100%;
-    text-align: center;
-    padding: 0;
+    margin: 0.5em 1.7em;
+    height: 50px;
+    line-height: 40px;
+    position: relative;
 }
-.head {
-    background-color: red;
-    width: 18.3%;
+ul {
+    margin: 5px;
+}
+.icon1 {
+    text-align: center;
+    width: 40px;
+    color: gray;
+    font-size: 20px;
+    float: right;
+    margin-right: 15px;
+    
+}
+#box-search {
+    text-align: left;
+    background-color: rgb(226, 221, 221);
+    width: 950px;
+    border-radius: 5px;
+    margin-left: 72px;
+}
+.fa-search {
+    margin-left: 35px;
+    font-size: 13px;
+}
+.fa-times{
+    margin-left: 610px;
+}
+.fa-chevron-down{
+    margin-left: 5px;
+}
+span{
+    margin-left: 5px;
+    font-size: 16px;
+}
+p{
+    display: inline;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.icon {
+    text-align: center;
+    width: 5px;
+    color: rgb(143, 31, 31);
+    font-size: 50px;
+    float: left;
+    margin-left: 3px;
+}
+hr{
+    margin-top: 10px;
 }
 nav {
     width: 100%;
     text-align: center;
     padding: 0;
+    margin: 1em 0 1em;
 }
-ul {
-    padding: 0;
+#backg-nav1 {
+    background-color: brown;
+    width: 130px;
+    text-align: center;
+    line-height: 55px;
+    height: 60px;
+    border-radius: 5px;
+}
+#backg-nav2 {
+    background-color: rgb(42, 165, 138);
+    width: 130px;
+    text-align: center;
+    line-height: 55px;
+    height: 60px;
+    border-radius: 5px;
+}
+#backg-nav3 {
+    background-color: brown;
+    width: 130px;
+    text-align: center;
+    line-height: 55px;
+    height: 60px;
+    border-radius: 5px;
+}
+#backg-nav4 {
+    background-color: rgb(233, 207, 64);
+    width: 130px;
+    text-align: center;
+    line-height: 55px;
+    height: 60px;
+    border-radius: 5px;
+}
+#backg-nav5 {
+    background-color: rgb(250, 90, 90);
+    width: 130px;
+    text-align: center;
+    line-height: 55px;
+    height: 60px;
+    border-radius: 5px;
+}
+#backg-nav6 {
+    background-color: rgb(67, 165, 42);
+    width: 130px;
+    text-align: center;
+    line-height: 55px;
+    height: 60px;
+    border-radius: 5px;
+}
+#backg-nav7 {
+    background-color: rgb(165, 42, 144);
+    width: 130px;
+    text-align: center;
+    line-height: 55px;
+    height: 60px;
+    border-radius: 5px;
+}
+#backg-nav8 {
+    background-color: rgb(72, 47, 146);
+    width: 130px;
+    text-align: center;
+    line-height: 55px;
+    height: 60px;
+    border-radius: 5px;
+}
+#backg-nav9 {
+    background-color: rgb(165, 147, 42);
+    width: 130px;
+    text-align: center;
+    line-height: 55px;
+    height: 60px;
+    border-radius: 5px;
+}
+strong {
+    color: white;
 }
 ul li {
     width: 9.6%;
-    background-color: yellowgreen;
+    background-color: white;
     display: inline-block;
     padding: 0;
 }
-section{
-    text-align: center;
-    margin-bottom: 15px;
-  
-}
-div{
-    background-color: blue;
-    width: 23%;
-    display: inline-block;
-}
+#contenedor{
+    text-align: left;
+    width: 750px;
+    margin: auto;}
+    
+    #lateral{
+    width: 180px;  /*Este será el ancho que tendrá tu columna*/
+    background-color: #CCCCCC;  /*Aquí pon el color del fondo que quieras para este lateral*/
+    float:left; /*Aqui determinas de lado quieres quede esta "columna" */
+    }
+    
+    #principal{
+    margin-left:190px; /*Este margen hace que no se encime el contenido en tu menúlateral, es     importante que pongas un pocos pixeles más que el ancho  de tu columna lateral*/
+    background-color: #FFFFFF;
+    border:#000000 1px solid; /*ponemos un dorde para que se vea bonito*/
+    }
