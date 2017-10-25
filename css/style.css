@@ -6,7 +6,7 @@ body {
 }
 header{
     margin: 0.5em 1.7em;
-    height: 50px;
+    height: 120px;
     line-height: 40px;
     position: relative;
 }
@@ -183,4 +183,7 @@ img {
     width: 100%;
     border-radius: 5px;
     margin: 1em 0 1em;
+}
+nav {
+    position: 
 }
