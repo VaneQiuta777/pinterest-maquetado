@@ -4,14 +4,48 @@ body {
     padding: 0;
     font-family: 'Droid Sans', sans-serif;
 }
-header{
-    margin: 0.5em 1.7em;
+.containerHeader {
+    margin-left: 40px;
     height: 120px;
     line-height: 40px;
-    position: relative;
+    position: fixed;
+    z-index: 5;
+    background-color: white;
 }
-ul {
-    margin: 5px;
+
+.input {
+    margin-left: 120px;
+    width: 900px;
+    border: none;
+}
+label {
+    display: inline;
+}
+.search {
+    border: none;
+    width: 500px;
+    height: 20px;
+}
+.fa-search {
+    margin-left: 20px;
+    font-size: 20px;
+}
+.inputStudentFiltered { /*container input search students*/
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 100%;
+    padding: 5px;
+    box-shadow: 2px 2px 5px #999;
+}
+::placeholder { 
+    background-color: rgb(255, 255, 255);
+    
+}
+.fa-times{
+    margin-left: 110px;
+}
+.fa-chevron-down{
+    margin-left: 5px;
 }
 .icon1 {
     text-align: center;
@@ -20,28 +54,8 @@ ul {
     font-size: 20px;
     float: right;
     margin-right: 14px;
+    margin-top: 10px;
     
-}
-#box-search {
-    text-align: left;
-    background-color: rgb(226, 221, 221);
-    width: 950px;
-    border-radius: 5px;
-    margin-left: 72px;
-}
-.fa-search {
-    margin-left: 35px;
-    font-size: 13px;
-}
-.fa-times{
-    margin-left: 610px;
-}
-.fa-chevron-down{
-    margin-left: 5px;
-}
-span{
-    margin-left: 5px;
-    font-size: 16px;
 }
 p{
     display: inline;
@@ -59,8 +73,12 @@ p{
 hr{
     margin-top: 10px;
 }
+
 ul {
     padding: 0;
+}
+.containerNav {
+    background-color: white;
 }
 nav {
     width: 100%;
@@ -154,28 +172,32 @@ ul li {
     border-radius: 5px;
     display: block;*/
 }
-#contenedor{
+section {
+    margin-top: 100px;
+}
+.containerImages{
     text-align: center;
     margin: auto;
+    padding-top: 200px;
     width: 1200px;
 }    
 #lateral1{
-    width: 300px;  /*Este será el ancho que tendrá tu columna*/
+    width: 280px;  /*Este será el ancho que tendrá tu columna*/
     float:left; /*Aqui determinas de lado quieres quede esta "columna" */
-    margin-left: 50px;
+    margin-left: 20px;
     }    
 #lateral2{
-    width: 300px;  /*Este será el ancho que tendrá tu columna*/
+    width: 280px;  /*Este será el ancho que tendrá tu columna*/
     float:left; /*Aqui determinas de lado quieres quede esta "columna" */
     margin-left: 10px;
 }    
 #lateral3{
-    width: 300px;  /*Este será el ancho que tendrá tu columna*/
+    width: 280px;  /*Este será el ancho que tendrá tu columna*/
     float:left; /*Aqui determinas de lado quieres quede esta "columna" */
     margin-left: 10px;
 }    
 #lateral4{
-    width: 300px;  /*Este será el ancho que tendrá tu columna*/
+    width: 280px;  /*Este será el ancho que tendrá tu columna*/
     float:left; /*Aqui determinas de lado quieres quede esta "columna" */
     margin-left: 10px;
 }
@@ -184,6 +206,11 @@ img {
     border-radius: 5px;
     margin: 1em 0 1em;
 }
-nav {
-    position: 
-}
+
+.containerFooter     {
+    background-color: rgb(58, 57, 57);
+    margin-top: 4000px;
+    padding: 30px;
+    color: white;
+    text-align: center;
+  }

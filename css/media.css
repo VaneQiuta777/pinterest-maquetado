@@ -1,0 +1,21 @@
+@media screen (max-width: 1920px) {
+    .containerHeader .containerNav {
+        height: 400px;
+        max-width: 1920px;
+    }  
+    .containerImages .containerFooter {
+        max-width: 1920px;   
+    }
+}
+@media screen (max-width: 920px) {
+    .containerHeader .containerNav {
+        height: 400px;
+        max-width: 920px;
+        
+    }  
+    .containerImages .containerFooter {
+        max-width: 920px;   
+    }
+}
+
+  
